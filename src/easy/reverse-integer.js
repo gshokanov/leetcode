@@ -4,6 +4,7 @@
  * @return {number}
  */
 function reverse(num) {
+  // Get upper boundary for signed int32
   const boundary = (~(1 << 31)).toString(10).split('');
   const isNegative = num < 0;
   let numbers = num.toString(10).split('');
@@ -27,6 +28,7 @@ function reverse(num) {
   }
   let result = parseInt(reversed.join(''));
   if (isNegative) {
+      // Two's complement
       result = (~result) + 1;
   }
   return result;
