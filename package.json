@@ -1,0 +1,8 @@
+{
+  "name": "leetcode",
+  "version": "0.0.0",
+  "description": "Javascript solutions to Leetcode problems",
+  "keywords": ["leetcode", "algorithms"],
+  "author": "Heorhi Shakanau",
+  "license": "ISC"
+}
