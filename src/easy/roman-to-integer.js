@@ -11,9 +11,9 @@ const numerals = {
 };
 
 const compositeNumerals = {
-  I: ["V", "X"],
-  X: ["L", "C"],
-  C: ["D", "M"]
+  I: ['V', 'X'],
+  X: ['L', 'C'],
+  C: ['D', 'M']
 };
 
 /**
@@ -30,7 +30,7 @@ function romanToInt(s) {
       result += numerals[symbol];
       continue;
     }
-    const nextSymbol = i + 1 < len ? s[i + 1] : "";
+    const nextSymbol = i + 1 < len ? s[i + 1] : '';
     if (!nextSymbol || !compositeNumerals[symbol].includes(nextSymbol)) {
       result += numerals[symbol];
       continue;
