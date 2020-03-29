@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/combination-sum/submissions/
+// https://leetcode.com/problems/combination-sum/
 
 /**
  * @param {number[]} candidates
